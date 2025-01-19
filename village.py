@@ -40,3 +40,4 @@ for i in range(n):
         best_village = i
 
 print(best_village)
+print("Hello")

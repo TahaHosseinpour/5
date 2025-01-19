@@ -16,4 +16,3 @@ for i in range(1, rows):
     for j in range(1, cols):
         dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]) + maze[i][j]
 
-print(dp[rows - 1][cols - 1])
